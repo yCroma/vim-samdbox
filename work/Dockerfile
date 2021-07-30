@@ -10,6 +10,9 @@ RUN apt update && \
 		vim \
 		tmux
 
+RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
+RUN apt-get install -y nodejs
+
 #localeを日本語設定に変更
 RUN locale-gen ja_JP.UTF-8
 #言語を日本語に設定
