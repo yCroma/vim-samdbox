@@ -1,0 +1,612 @@
+# この viminfo ファイルは Vim 8.1 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+|2,0,1627644299,,"q"
+:wq
+|2,0,1625844164,,"wq"
+:PlugInstall
+|2,0,1625844162,,"PlugInstall"
+:w
+|2,0,1625844125,,"w"
+:highlight
+|2,0,1625843654,,"highlight"
+:hilight
+|2,0,1625843648,,"hilight"
+:vsp status_line.vim
+|2,0,1625841639,,"vsp status_line.vim"
+:qa!
+|2,0,1625838191,,"qa!"
+:wq !sudo tee > /dev/null
+|2,0,1625838184,,"wq !sudo tee > /dev/null"
+:wqa !sudo tee > /dev/null
+|2,0,1625838166,,"wqa !sudo tee > /dev/null"
+:wq!
+|2,0,1625838081,,"wq!"
+:wqa
+|2,0,1625838068,,"wqa"
+:e .vim/config/init.vim
+|2,0,1625838026,,"e .vim/config/init.vim"
+:vsp
+|2,0,1625837965,,"vsp"
+:colorscheme onehalfdark
+|2,0,1625835139,,"colorscheme onehalfdark"
+:colorscheme minimalist
+|2,0,1625834503,,"colorscheme minimalist"
+:colorscheme materialbox
+|2,0,1625834468,,"colorscheme materialbox"
+:colorscheme tender
+|2,0,1625834439,,"colorscheme tender"
+:colorscheme stellarized
+|2,0,1625834419,,"colorscheme stellarized"
+:colorscheme solarized8
+|2,0,1625834405,,"colorscheme solarized8"
+:colorscheme snow
+|2,0,1625834394,,"colorscheme snow"
+:colorscheme sierra
+|2,0,1625834380,,"colorscheme sierra"
+:colorscheme rdark-terminal2
+|2,0,1625833644,,"colorscheme rdark-terminal2"
+:colorscheme nord
+|2,0,1625833624,,"colorscheme nord"
+:colorscheme murphy
+|2,0,1625833598,,"colorscheme murphy"
+:colorscheme mountaineer-grey
+|2,0,1625833588,,"colorscheme mountaineer-grey"
+:colorscheme mountaineer
+|2,0,1625833576,,"colorscheme mountaineer"
+:colorscheme molokai
+|2,0,1625833562,,"colorscheme molokai"
+:colorscheme jellybeans
+|2,0,1625833511,,"colorscheme jellybeans"
+:colorscheme fogbell
+|2,0,1625833494,,"colorscheme fogbell"
+:colorscheme focuspoint
+|2,0,1625833482,,"colorscheme focuspoint"
+:colorscheme flattened_dark
+|2,0,1625833465,,"colorscheme flattened_dark"
+:colorscheme darkblue
+|2,0,1625833435,,"colorscheme darkblue"
+:colorscheme deus
+|2,0,1625833426,,"colorscheme deus"
+:colorscheme carbonized-dark
+|2,0,1625833406,,"colorscheme carbonized-dark"
+:colorscheme abstract
+|2,0,1625833377,,"colorscheme abstract"
+:colorscheme ayu
+|2,0,1625833348,,"colorscheme ayu"
+:colorscheme atom
+|2,0,1625833344,,"colorscheme atom"
+:colorscheme archery
+|2,0,1625833337,,"colorscheme archery"
+:colorscheme apprentice
+|2,0,1625833329,,"colorscheme apprentice"
+:colorscheme angr
+|2,0,1625833321,,"colorscheme angr"
+:colorscheme anderson
+|2,0,1625833314,,"colorscheme anderson"
+:colorscheme alduin
+|2,0,1625833307,,"colorscheme alduin"
+:colorscheme afterglow
+|2,0,1625833301,,"colorscheme afterglow"
+:colorscheme iceberg
+|2,0,1625833255,,"colorscheme iceberg"
+:colorscheme orbital
+|2,0,1625833196,,"colorscheme orbital"
+:colorscheme space-vim-dark
+|2,0,1625830714,,"colorscheme space-vim-dark"
+:colorscheme seoul256
+|2,0,1625830701,,"colorscheme seoul256"
+:colorscheme twilight256
+|2,0,1625830643,,"colorscheme twilight256"
+:colorscheme wombat256mod
+|2,0,1625830634,,"colorscheme wombat256mod"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+? @$
+|2,1,1627636288,,"@$"
+? mode = CurrentMode()
+|2,1,1625843288,,"mode = CurrentMode()"
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+""0	LINE	0
+	
+|3,1,0,1,1,0,1627636288,""
+"1	LINE	0
+	
+|3,0,1,1,1,0,1625844119,""
+"2	LINE	0
+	
+	" VimHelpGenerator
+	Plug 'LeafCage/vimhelpgenerator'
+	
+	" emmet
+	Plug 'mattn/emmet-vim'
+|3,0,2,1,6,0,1625844098,"","\" VimHelpGenerator","Plug 'LeafCage/vimhelpgenerator'","","\" emmet","Plug 'mattn/emmet-vim'"
+"3	LINE	0
+	" 変更検知
+	Plug 'airblade/vim-gitgutter'
+	" git wrapper
+	Plug 'tpope/vim-fugitive'
+	
+	" lsp
+	Plug 'prabirshrestha/vim-lsp'
+	Plug 'mattn/vim-lsp-settings'
+	" auto complete
+	Plug 'prabirshrestha/asyncomplete.vim'
+	Plug 'prabirshrestha/asyncomplete-lsp.vim'
+	
+	" fzf
+	Plug 'ctrlpvim/ctrlp.vim'
+	
+	" popup buffer list
+	Plug 'yCroma/pobls.vim'
+	
+	" filer
+	Plug 'lambdalisue/fern.vim'
+	Plug 'lambdalisue/fern-hijack.vim'
+|3,0,3,1,21,0,1625844086,"\" 変更検知","Plug 'airblade/vim-gitgutter'","\" git wrapper","Plug 'tpope/vim-fugitive'","","\" lsp","Plug 'prabirshrestha/vim-lsp'","Plug 'mattn/vim-lsp-settings'","\" auto complete","Plug 'prabirshrestha/asyncomplete.vim'","Plug 'prabirshrestha/asyncomplete-lsp.vim'","","\" fzf","Plug 'ctrlpvim/ctrlp.vim'","","\" popup buffer list","Plug 'yCroma/pobls.vim'","","\" filer","Plug 'lambdalisue/fern.vim'",>36
+|<"Plug 'lambdalisue/fern-hijack.vim'"
+"4	LINE	0
+	    let s:mode = CurrentMode()
+|3,0,4,1,1,0,1625843877,"    let s:mode = CurrentMode()"
+"5	LINE	0
+	    if mode() =~ 'n'
+	        let c = 1
+	        let mode_name = ' NORMAL '
+	    elseif mode() =~ 'i'
+	        let c = 2
+	        let mode_name = ' INSERT ' 
+	    elseif mode() =~ '\v(v|V)'
+	        let c = 3
+	        let mode_name = ' VISUAL '
+	    elseif mode() == '<C-v>'
+	        let c = 3
+	        let mode_name = ' VISUAL '
+	    elseif mode() =~ 'R'
+	        let c = 4
+	        let mode_name = ' REPLACE'
+	    else
+	        let c = 0
+	        let mode_name = mode()
+	    endif
+	    ""return '%' . c . '*' . mode_name . '%* %<%F%=%m%r %18([%{toupper(&ft)}][%l/%L]%)'
+	    ""return '%' . c . '*' . mode_name . '%#StatusLine# %r %f %m %= [%{&fileformat}] %y'
+|3,0,5,1,21,0,1625843861,"    if mode() =~ 'n'","        let c = 1","        let mode_name = ' NORMAL '","    elseif mode() =~ 'i'","        let c = 2","        let mode_name = ' INSERT ' ","    elseif mode() =~ '\\v(v|V)'","        let c = 3","        let mode_name = ' VISUAL '","    elseif mode() == '<C-v>'","        let c = 3","        let mode_name = ' VISUAL '","    elseif mode() =~ 'R'","        let c = 4","        let mode_name = ' REPLACE'","    else",>19
+|<"        let c = 0","        let mode_name = mode()","    endif","    \"\"return '%' . c . '*' . mode_name . '%* %<%F%=%m%r %18([%{toupper(&ft)}][%l/%L]%)'","    \"\"return '%' . c . '*' . mode_name . '%#StatusLine# %r %f %m %= [%{&fileformat}] %y'"
+"6	LINE	0
+	    let s:mode = CurrentMode()
+	    if mode() =~ 'n'
+	        let c = 1
+	        let mode_name = ' NORMAL '
+	    elseif mode() =~ 'i'
+	        let c = 2
+	        let mode_name = ' INSERT ' 
+	    elseif mode() =~ '\v(v|V)'
+	        let c = 3
+	        let mode_name = ' VISUAL '
+	    elseif mode() == '<C-v>'
+	        let c = 3
+	        let mode_name = ' VISUAL '
+	    elseif mode() =~ 'R'
+	        let c = 4
+	        let mode_name = ' REPLACE'
+	    else
+	        let c = 0
+	        let mode_name = mode()
+	    endif
+	    ""return '%' . c . '*' . mode_name . '%* %<%F%=%m%r %18([%{toupper(&ft)}][%l/%L]%)'
+	    ""return '%' . c . '*' . mode_name . '%#StatusLine# %r %f %m %= [%{&fileformat}] %y'
+|3,0,6,1,22,0,1625843853,"    let s:mode = CurrentMode()","    if mode() =~ 'n'","        let c = 1","        let mode_name = ' NORMAL '","    elseif mode() =~ 'i'","        let c = 2","        let mode_name = ' INSERT ' ","    elseif mode() =~ '\\v(v|V)'","        let c = 3","        let mode_name = ' VISUAL '","    elseif mode() == '<C-v>'","        let c = 3","        let mode_name = ' VISUAL '","    elseif mode() =~ 'R'","        let c = 4",>36
+|<"        let mode_name = ' REPLACE'","    else","        let c = 0","        let mode_name = mode()","    endif","    \"\"return '%' . c . '*' . mode_name . '%* %<%F%=%m%r %18([%{toupper(&ft)}][%l/%L]%)'","    \"\"return '%' . c . '*' . mode_name . '%#StatusLine# %r %f %m %= [%{&fileformat}] %y'"
+"7	LINE	0
+	
+|3,0,7,1,1,0,1625843092,""
+"8	LINE	0
+	let s:mode = {
+	    \ 'n':
+	}
+|3,0,8,1,3,0,1625842928,"let s:mode = {","    \\ 'n':","}"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1625842916,""
+"q	CHAR	0
+	
+|3,0,26,0,1,0,1625843288,""
+"-	BLOCK	7
+	\v(v|V|\
+|3,0,36,2,1,7,1625841428,"\\v(v|V|\\"
+
+# ファイルマーク:
+'0  7  4  ~/.vim/config/plugin.vim
+|4,48,7,4,1627644299,"~/.vim/config/plugin.vim"
+'1  8  0  ~/.vim/config/plugin
+|4,49,8,0,1627636290,"~/.vim/config/plugin"
+'2  1  0  ~/.vim/config/status_line.vim.org
+|4,50,1,0,1627636275,"~/.vim/config/status_line.vim.org"
+'3  20  0  ~/.vim/config/init.vim
+|4,51,20,0,1627636265,"~/.vim/config/init.vim"
+'4  1  0  ~/.vim/config/plugin.vim
+|4,52,1,0,1625844178,"~/.vim/config/plugin.vim"
+'5  1  0  ~/.vim/config/plugin.vim
+|4,53,1,0,1625844178,"~/.vim/config/plugin.vim"
+'6  5  0  ~/.vim/config/plugin.vim
+|4,54,5,0,1625844164,"~/.vim/config/plugin.vim"
+'7  5  0  ~/.vim/config/plugin.vim
+|4,55,5,0,1625844164,"~/.vim/config/plugin.vim"
+'8  5  0  ~/.vim/config/plugin.vim
+|4,56,5,0,1625844164,"~/.vim/config/plugin.vim"
+'9  5  0  ~/.vim/config/plugin.vim
+|4,57,5,0,1625844164,"~/.vim/config/plugin.vim"
+
+# ジャンプリスト (新しいものが先):
+-'  7  4  ~/.vim/config/plugin.vim
+|4,39,7,4,1627644299,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1627636294,"~/.vim/config/plugin.vim"
+-'  8  0  ~/.vim/config/plugin
+|4,39,8,0,1627636290,"~/.vim/config/plugin"
+-'  8  0  ~/.vim/config/plugin
+|4,39,8,0,1627636290,"~/.vim/config/plugin"
+-'  1  0  ~/.vim/config/status_line.vim.org
+|4,39,1,0,1627636275,"~/.vim/config/status_line.vim.org"
+-'  1  0  ~/.vim/config/status_line.vim.org
+|4,39,1,0,1627636275,"~/.vim/config/status_line.vim.org"
+-'  1  0  ~/.vim/config/status_line.vim.org
+|4,39,1,0,1627636275,"~/.vim/config/status_line.vim.org"
+-'  1  0  ~/.vim/config/status_line.vim.org
+|4,39,1,0,1627636275,"~/.vim/config/status_line.vim.org"
+-'  20  0  ~/.vim/config/init.vim
+|4,39,20,0,1627636265,"~/.vim/config/init.vim"
+-'  20  0  ~/.vim/config/init.vim
+|4,39,20,0,1627636265,"~/.vim/config/init.vim"
+-'  20  0  ~/.vim/config/init.vim
+|4,39,20,0,1627636265,"~/.vim/config/init.vim"
+-'  20  0  ~/.vim/config/init.vim
+|4,39,20,0,1627636265,"~/.vim/config/init.vim"
+-'  20  0  ~/.vim/config/init.vim
+|4,39,20,0,1627636265,"~/.vim/config/init.vim"
+-'  20  0  ~/.vim/config/init.vim
+|4,39,20,0,1627636265,"~/.vim/config/init.vim"
+-'  20  0  ~/.vim/config/init.vim
+|4,39,20,0,1627636265,"~/.vim/config/init.vim"
+-'  20  0  ~/.vim/config/init.vim
+|4,39,20,0,1627636265,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1627636251,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1627636251,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1627636251,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1627636251,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1627636251,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1627636251,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1627636251,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1627636251,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844178,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844178,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844178,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844178,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844178,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844178,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844178,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844178,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  5  0  ~/.vim/config/plugin.vim
+|4,39,5,0,1625844164,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844017,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844017,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844017,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844017,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844017,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844017,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844017,"~/.vim/config/plugin.vim"
+-'  1  0  ~/.vim/config/plugin.vim
+|4,39,1,0,1625844017,"~/.vim/config/plugin.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  11  0  ~/.vim/config/init.vim
+|4,39,11,0,1625844005,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1625843999,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1625843999,"~/.vim/config/init.vim"
+-'  1  0  ~/.vim/config/init.vim
+|4,39,1,0,1625843999,"~/.vim/config/init.vim"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/.vim/config/plugin.vim
+	*	1627644298	0
+	"	7	4
+	^	5	0
+	.	5	0
+	+	10	14
+	+	6	0
+	+	9	0
+	+	4	40
+	+	6	0
+	+	5	0
+
+> ~/.vim/config/status_line.vim.org
+	*	1627636271	0
+	"	1	0
+
+> ~/.vim/config/init.vim
+	*	1627636254	0
+	"	20	0
+	.	21	0
+	+	10	15
+	+	3	22
+	+	1	18
+	+	21	10
+	+	9	0
+	+	21	0
+	+	21	2
+	+	21	14
+	+	21	0
+	+	5	0
+	+	11	0
+	+	13	0
+	+	12	7
+	+	20	4
+	+	19	56
+	+	20	0
+	+	13	0
+	+	14	0
+	+	21	33
+	+	21	0
+	+	21	29
+	+	21	22
+	+	21	31
+	+	21	22
+	+	21	31
+	+	21	23
+	+	21	16
+	+	21	32
+	+	21	16
+	+	21	19
+	+	21	33
+	+	21	29
+	+	21	0
+	+	21	24
+	+	21	7
+	+	21	32
+	+	21	0
+	+	21	20
+	+	21	34
+	+	21	19
+	+	21	27
+	+	21	0
+
+> ~/.vim/config/status_line.vim
+	*	1625843974	0
+	"	1	4
+	^	17	30
+	.	17	0
+	+	1	0
+	+	8	0
+	+	4	0
+	+	14	0
+	+	10	26
+	+	12	0
+	+	11	11
+	+	3	6
+	+	11	15
+	+	4	15
+	+	11	24
+	+	4	18
+	+	11	36
+	+	17	25
+	+	17	16
+	+	10	29
+	+	12	10
+	+	17	0
+
+> ~/.vimrc
+	*	1625838218	0
+	"	1	0
+	^	4	24
+	.	1	0
+	+	1	0
+	+	1	21
+	+	1	2
+	+	4	23
+	+	1	0
+
+> .vim/config/init.vim
+	*	1625838177	0
+	"	4	0
+	^	1	18
+	.	1	17
+	+	2	0
+	+	1	17
+
+> ~/.vim/colors/minimalist.vim
+	*	1625835538	0
+	"	1	0
+
+> ~/.vim/colors/flattened_dark.vim
+	*	1625835175	0
+	"	1	0
+
+> ~/.vim/colors/atom-dark.vim
+	*	1625830187	0
+	"	1	0
+	^	115	19
+	.	115	18
+	+	115	18
+
+> ~/.vim/colors/misted_spring.vim
+	*	1625830181	0
+	"	69	0
+	^	74	0
+	.	73	36
+	+	73	36
+
+> ~/.vim/colors/gruvbox.vim
+	*	1625830054	0
+	"	56	0
+	^	1418	54
+	.	1418	53
+	+	1418	53
+
+> ~/.vim/colors/staby.vim
+	*	1625830034	0
+	"	1	0
+	^	112	48
+	.	112	47
+	+	112	47
+
+> ~/.vim/colors/flatland.vim
+	*	1625830013	0
+	"	1	0
+	^	107	80
+	.	107	79
+	+	107	79
