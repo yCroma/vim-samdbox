@@ -7,7 +7,8 @@ RUN apt update && \
 		locales \
 		curl \
 		git \
-		vim
+		vim \
+		tmux
 
 #localeを日本語設定に変更
 RUN locale-gen ja_JP.UTF-8
