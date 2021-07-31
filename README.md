@@ -4,6 +4,8 @@
 
 - git
 - tmux
+- nodejs
+- npm
 
 ## manual installed
 
