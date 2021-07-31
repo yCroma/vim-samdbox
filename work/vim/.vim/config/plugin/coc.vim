@@ -2,8 +2,21 @@
 
 " coc-explorer
 let g:coc_explorer_global_presets = {
+\   'default': {
+\     'position': 'right',
+\     'explorer.file.showHiddenFiles': v:true,
+\     'sources': [
+\       {'name': 'buffer', 'expand': v:true},
+\       {'name': 'file', 'expand': v:true}
+\     ]
+\   },
 \   '.vim': {
+\     'position': 'right',
 \     'root-uri': '~/.vim',
+\     'sources': [
+\       {'name': 'buffer', 'expand': v:true},
+\       {'name': 'file', 'expand': v:true}
+\     ]
 \   },
 \   'cocConfig': {
 \      'root-uri': '~/.config/coc',
@@ -46,10 +59,16 @@ let g:coc_explorer_global_presets = {
 \ }
 
 " Use preset argument to open it
-nnoremap <space>ed :CocCommand explorer --preset .vim<CR>
-nnoremap <space>ef :CocCommand explorer --preset floating<CR>
+nnoremap <space>ed :CocCommand explorer --preset default<CR>
+nnoremap <space>ev :CocCommand explorer --preset .vim<CR>
 nnoremap <space>ec :CocCommand explorer --preset cocConfig<CR>
 nnoremap <space>eb :CocCommand explorer --preset buffer<CR>
 
 " List all presets
 nnoremap <space>el :CocList explPresets
+
+" refresh
+autocmd User CocDiagnosticChange,CocGitStatusChange
+    \ call CocActionAsync('runCommand', 'explorer.doAction', 'closest', ['refresh'])
+
+
