@@ -16,5 +16,5 @@ if has("autocmd")
     "ファイルタイプに合わせたインデントを利用
     filetype indent on
     "sw=shiftwidth, sts=softtabstop, ts=tabstop, et=expandtabの略
-    autocmd FileType vim	       setlocal sw=4 sts=4 ts=4 et
+    autocmd FileType vim	       setlocal sw=2 sts=2 ts=2 et
 endif
